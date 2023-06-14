@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="demo"></p>
+    <h2 id="test"></h2>
+    <!-- <button onclick="document.getElementById('demo').innerHTML=Date()">click me</button> -->
+    <button onclick="document.getElementsByTagName('p').innerHTML=Date()">click me</button>
+    <br><br>
+    <mark id="mark_text"></mark><br><br>
+    <button onclick="first_function()">click to mark</button>
+
+    <script>
+        document.getElementById('test').innerHTML= "hello javascript";
+       var a = document.getElementById('test').innerText;
+       document.write("<br><br>"+a);
+
+        function first_function(){
+
+            document.getElementById('mark_text').innerHTML="hello dhruv ghinaiya";
+        }
+
+
+
+    </script>
+</body>
+</html>

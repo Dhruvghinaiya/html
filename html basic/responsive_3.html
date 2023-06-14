@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="html responsive">
+    <meta name="keywords" content="html,css,js">
+    <meta name="author" content="dhruv ghinaiya">
+    <title>html responsive part 3</title>
+    <link rel="icon" href="images/blog66.jpg">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .menu{
+            float: left;
+            width: 20%;
+        }
+        .menuitem{
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom:1px solid #ce6969;
+        }
+        .main{
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+            text-align: justify;
+        }
+        .right{
+            background-color: burlywood;
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+            text-align: justify;
+        }
+        @media only screen and (max-width:800px){
+            /* for tablet */
+            .main{
+                width: 100%;
+                padding: 0;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width:500px){
+            /* for mobile */
+
+            .menu,.main,.right{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>html</h1>
+        <h3>hello world </h3>
+    </div>
+
+    <div style="overflow:auto;">
+        <div class="menu">
+            <div class="menuitem">html</div>
+            <div class="menuitem">css</div>
+            <div class="menuitem">javascript</div>
+        </div>
+
+        <div class="main">
+            <h2>hello html</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptates amet asperiores voluptatibus, quod neque, tempore aspernatur fugit eligendi id eos numquam! Quo explicabo, totam aperiam excepturi ab ipsum tenetur obcaecati voluptatibus recusandae aliquam rerum. Aut eos accusamus mollitia modi nam asperiores unde quaerat ab alias, voluptate rerum. Veritatis, laborum.</p>
+            <img src="images/blog67.jpg" style="width: 100%;" alt="">
+        </div>
+
+        <div class="right">
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam molestias eos deserunt quos unde neque explicabo ipsum reprehenderit sint doloremque quod, maxime veritatis ut eveniet iure enim maiores officiis fugit quo facere. Dolor possimus corrupti doloribus temporibus repellat aliquam consequatur?</p>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit error possimus consectetur vitae sapiente rem excepturi vero dolor qui illo placeat nostrum commodi nulla porro nam dignissimos omnis, autem labore veniam accusamus tenetur fugiat voluptate deleniti! Expedita pariatur error nobis voluptatem doloribus aliquam nulla quo? Ea distinctio repudiandae enim laboriosam!</p>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptas nostrum autem repudiandae recusandae explicabo expedita cupiditate ipsa, obcaecati eligendi laudantium quis sapiente fugiat ullam possimus laborum consequuntur. Nemo ut neque delectus sunt perspiciatis dolor nihil incidunt harum fugit? Dolore pariatur, earum ipsa delectus dolorem aliquam distinctio cupiditate adipisci rerum nesciunt veniam expedita ex ipsam, reprehenderit maiores impedit beatae nobis!</p>
+        </div>
+    </div>
+    <div style="background-color: aquamarine;text-align:center;padding:10px;margin-top:7px;font-size:12px">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero laborum tempore suscipit eos quam reiciendis doloremque sint animi rerum aperiam. Laborum dignissimos, soluta dicta facilis expedita dolores ad vel, ea eius sint, deleniti minus dolorem beatae error ipsa excepturi dolorum!loremfa-rotate Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quo voluptas aliquid atque asperiores perferendis. Dolorem delectus rem eos at.
+    </div>
+</body>
+</html>

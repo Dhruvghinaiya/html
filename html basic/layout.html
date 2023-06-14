@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="html layout in create">
+    <meta name="keywords" content="html,meta,metatag">
+    <meta name="author" content="dhruv ghinaiya">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: cadetblue;
+            height: 40px;
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            position: relative;
+            bottom: 20px;
+            
+          }
+
+
+          nav{
+            float: left;
+            height: 300px;
+            background-color:chartreuse ;
+            width: 25%;
+            margin-top: 10px;
+            padding: 20px;
+            
+          }
+          nav ul{
+            list-style-type: none;
+            padding: 0;
+          }
+          
+          li{
+            margin-top: 10px;
+          }
+          li:hover{
+            background-color: cornflowerblue;
+            width: 80px;
+            
+          }
+          article{
+            float: left;
+            background-color: darkgrey;
+            padding: 20px;
+            width: 75%;
+            height: auto;
+            margin-top: 10px;
+            
+            
+          }
+
+          section::after{
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          footer{
+            background-color:darkviolet;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+          }
+
+          @media(max-width:600px) {
+            nav,article{
+                width: 100%;
+                height: auto;
+                text-overflow: clip;
+                text-align: justify;
+            }
+
+            @media(max-width:500px){
+                article{
+                    font-size: 35px;
+
+                }
+                nav{
+                    font-size: 30px;
+                }
+            }
+          }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        DG Tutorial
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li> <a href="#">Gallery</a></li>
+                <li> <a href="#">Contact Us</a> </li>
+                <li> <a href="#">About Us</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>india</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde quam corporis id nihil quae quisquam quas recusandae, distinctio, vel aperiam repellat officia blanditiis placeat eos exercitationem porro. Aliquam minus suscipit accusamus atque, ratione et quibusdam eveniet velit doloremque non voluptas natus laboriosam deleniti voluptatibus porro, beatae inventore. Libero tempore minima maiores soluta eum itaque eveniet totam iusto vel sit architecto, cupiditate repellat velit id eos nisi accusantium, tenetur aliquam rerum animi. Illum fugiat incidunt asperiores! Ipsa, praesentium sed quidem consequuntur veritatis eum! Tempore cumque nulla enim facere aliquam, repellendus quae placeat atque adipisci culpa nobis quis, iure exercitationem autem?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas commodi architecto excepturi tempore, itaque natus officiis ducimus! Minus, nostrum. Laborum officia temporibus, vero quia quaerat ea obcaecati, tempore modi at porro repudiandae nam praesentium unde voluptatibus accusantium eaque quidem quis perspiciatis dignissimos. Reiciendis culpa, at ad possimus sit ducimus.</p>
+        </article>
+    </section>
+
+    <footer>
+        <strong>dhruv ghinaiya</strong>
+    </footer>
+</body>
+</html>
