@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html all attributes</title>
+    
+</head>
+<body>
+    
+        <!-- ==================================== A ======================================= -->
+        
+                <!-- accept attribute  -->
+                
+                    <h2><mark>accept attribute</mark></h2>
+                        <!-- accept attribute specifiles the types of file server accepts -->
+                        
+                        <!-- choose media type <input type="file" accept="media_type"> -->
+
+                        <form action="">
+                            choose images: <input type="file" name="image" accept="image/*">
+                            choose audio: <input type="file" name="audio" accept="audio/*">
+                            choose video: <input type="file" accept="mkv/*">
+                            <br><br>
+                            choose video: <input type="file" accept="video/*">
+                            
+                            choose image,video <input type="file" accept="image/*,video/*">
+
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- action attribute -->
+                        <h2><mark>action attribute</mark></h2>
+
+                            <form action="test.html" method="get">  <!-- action attribute specifile send the form data a form submit-->
+
+                                <input type="text" placeholder="Enter name"><br><br>
+                                <input type="email" placeholder="Enter email"><br><br>
+
+                                <input type="submit" value="submit" name="s">
+
+                            </form>
+                            <br><br><hr><br>
+
+                <!-- alt (alternative) attribute -->
+                        <h2>alt (alternative) attribute</h2>  <!--alt provides alternative information for image  if a user some reason cannot view-->
+
+                        <img src="images/blog102.jpg" alt="image" width="250" height="200">
+                            <br><br><hr><br>
+
+                <!-- autocomplete attribute -->
+
+                        <h2><mark>autocomplete attribute</mark></h2>
+                            <form action="" autocomplete="off">
+                                <fieldset>
+                                    <legend>autocomplete</legend>
+
+                                    <input type="text" placeholder="name">
+                                    <br><br>
+                                    <input type="email" name="" id="" placeholder="email" autocomplete="on"> <!-- autocomplete-->
+                                    <br><br>
+                                    <button >submit</button>
+                                </fieldset>
+                            </form>
+                            <br><br><hr><br>
+                
+                <!-- autofocus attribute -->
+                        <h2><mark>autofocus attribute</mark></h2>
+                        
+                        <form action="">
+                            
+
+                                <!-- <input type="text" placeholder="first enter data" autofocus> -->
+                                <!-- <button autofocus>click me</button> -->
+                            
+                        </form>
+                        <br><hr><br>
+
+                <!-- autoplay attribute -->
+                        <h2><mark>autoplay attribute</mark></h2>
+
+                        <!-- <audio src="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" controls autoplay></audio> -->
+                        <br><hr><br>
+                    
+        <!-- ==================================== C ======================================= -->
+
+                <!-- checked attribute  -->
+                        <h2><mark>checked attribute</mark></h2>
+
+                        <form action="">
+
+                            <input type="checkbox" checked>html <br>
+                            <input type="checkbox">css <br>
+                            <input type="checkbox">javascript <br>
+                        </form>
+                        <br><hr><br>
+
+                <!-- cite attribute -->
+                        <h2><mark>cite attribute</mark></h2>
+
+                        <blockquote cite="https://www.google.com">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ex debitis enim nostrum? Ipsum asperiores atque quo. Tempore et labore ab ullam quis vitae accusantium, aliquid nostrum ut deleniti culpa cumque delectus corporis assumenda perspiciatis atque sint, excepturi doloribus illo?
+                        </blockquote>
+                        <br><hr><br>
+                        
+                <!-- class attribute -->
+                        <h2><mark>class attribute</mark></h2>
+                        
+                        <span class="abc">hello dhruv</span>
+                        <style>
+                            .abc{
+
+                                text-decoration-line: underline;
+                                text-decoration-style: wavy;
+                                text-decoration-color: cornflowerblue;
+                                font-size: 25px;
+                            }
+                        </style>
+                        <br><hr><br>
+                
+                <!-- cols attribute -->
+                        <h2><mark>cols attribute</mark></h2>
+
+                        <textarea name="" id="" cols="30" rows="8"></textarea>
+                        <br><br><hr><br>
+
+                <!-- colspan attribute -->
+                        <h2><mark>colspan attribute</mark></h2>
+                        
+                        <table border="3">
+                            <tr>
+                                <th>id</th>
+                                <th colspan="2">name</th>
+                                <th>email</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>dhruv</td>
+                                <td>ghinaiya</td>
+                                <td>abc@gmail.com</td>
+                            </tr>
+                        </table>
+                        <br><br><hr><br>
+                
+                <!-- content attribute -->
+                        <h2><mark>content attribute</mark></h2>
+
+                        <meta name="author" content="dhruv ghinaiya">
+                        <br><hr><br>
+
+                <!-- contenteditable attribute -->
+                        <h2><mark>contenteditable attribute</mark></h2>
+                        <!-- contenteditable attribute specifiles content of element is editable or not.
+                           
+                            note: contenteditable attribute is not set on element the element will inherit from parent.
+                        -->
+                        <p contenteditable="true"> this is editable paragraph.</p>
+                        <br><hr><br>
+
+                <!-- controle attribute -->
+                        <h2><mark>controle attribute</mark></h2>
+                        <audio src="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" controls></audio>
+                        <br><hr><br>
+                        
+                <!-- coords attribute -->
+                        <h2><mark>coords attribute</mark></h2>
+
+                        <img src="images/blog102.jpg" usemap="#dhruv" width="350" height="280" alt="">
+                        <map name="dhruv">
+                            <area shape="rect" coords="0,50,102,260"  href="images/blog66.jpg" alt="">
+                        </map>
+                        <br><hr><br>
+
+
+        <!-- ==================================== D ======================================= -->
+                        
+                <!-- data attribute -->
+                        <h2><mark>data attribute</mark></h2>
+                        <object data="images/blog67.jpg" type="" width="250" height="200"></object>
+                        <br><hr><br>
+                    
+                <!-- data-* attribute -->
+                        <h2><mark>data-* attribute</mark></h2>
+                        
+                        <script>
+                            function showDetails(animal){
+                                var animalType = animal.getAttribute('data-animal-type');
+                                alert("the "+animal.innerHTML+" is a "+animalType);
+                            }
+                        </script>
+
+                        <ul>
+                            <li onclick="showDetails(this)" data-animal-type="bird">own</li>
+                            <li onclick="showDetails(this)" data-animal-type="salmon">solman</li>
+                            <li onclick="showDetails(this)" data-animal-type="spider">tarantula</li>
+                        </ul>
+                        <br><hr><br>
+
+                <!--datetime attribute  -->
+                        <h2><mark>datetime attribute</mark></h2>
+                        <p>i have a date on <time datetime="2023-2-14">valentines day</time> </p>
+                        <br><hr><br>
+
+                <!-- dir (direction) attribute -->
+                        <h2><mark> dir (direction) attribute</h2>
+
+                            <p dir="rtl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae nostrum similique aspernatur necessitatibus! Quaerat, quam laborum. Recusandae optio, consectetur atque, nostrum soluta fugit, harum dolorem placeat vero amet eius fugiat ipsa modi facere. Et eum, quod blanditiis corporis labore veniam nam placeat enim assumenda vero.</p>
+                            <br><hr><br>
+
+                <!-- dirname attribute -->
+                            <h2><mark>dirname attribute</mark></h2>
+                                <!-- html form field's text direction will submitted. -->
+
+                                <form action="test.html">
+
+                                    <label for="name">name</label>
+                                    <input type="text" name="name" id="name" dirname="first_name.dir"><br><br>
+
+                                    <input type="submit" value="submit">
+                                </form>
+                                <br><br><hr><br>
+
+                <!-- disable attribute -->
+                            <h2><mark>disable attribute</mark></h2>
+                                <form action="">
+                                    <fieldset>
+                                        <legend>disable</legend>
+
+                                        <input type="text" placeholder="disabled" disabled><br><br>
+
+                                        <button disabled>disable button</button>
+                                    </fieldset>
+
+                                    <!-- use to disable attribute in element button,fieldset,input,optgroup,option,select,textarea -->
+                                </form>
+                                <br><br><hr><br>
+
+                <!--download attribute -->
+                            <h2><mark>download attribute</mark></h2>
+                            
+                            <a href="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" download >download song</a>
+                            <br><br><hr><br>
+
+                <!-- draggable attribute -->
+                            <h2><mark>draggable attribute</mark></h2>
+
+                            <style>
+                            #div1{
+                                width:350px;
+                                height: 70px;
+                                padding: 10px;
+                                border: 5px dotted red;
+                            }
+                            </style>
+
+                            <script>
+                                function allowDrop(ev){
+                                    ev.preventDefault();
+                                }
+                                function drag(ev){
+                                    ev.dataTransfer.setData('Text',ev.target.id);
+                                }
+                                function drop(ev){
+                                    var data = ev.dataTransfer.getData('Text');
+                                    ev.target.appendChild(document.getElementById(data));
+                                    ev.preventDefault();
+
+                                }
+                            </script>
+
+                            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                            <p draggable="true" id="dhruv" ondragstart="drag(event)" >this is a draggble paragraph</p>
+                            <br><hr><br>
+
+        <!-- ====================================  E ======================================= -->
+                            
+                <!-- enctype attribute -->
+                        <h2><mark>enctype attribute</mark></h2>
+                        <!-- enctype attribute specifiles how the form data encoded submiting to server
+                        note: the enctype attribute can be userd only POST method
+                        -->
+                        <form action="" method="post" enctype="multipart/form-data">
+
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" ><br><br>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                            <br><br>
+                            <input type="submit" >
+                        </form>
+                        <br><br><hr><br>
+
+        <!-- ==================================== F ======================================= -->
+                        
+                <!-- for attribute -->
+                        <h2><mark>for attribute</mark></h2>
+                        
+                        <form action="">
+                            <label for="name2">Name</label>
+                            <input type="text" id="name2    " >
+                        </form>
+                        <br><hr><br>
+
+                <!-- form attribute -->
+                        <h2><mark>form attribute</mark></h2>
+                        <form action="" id="form1">
+
+                            <input type="text" name="" id="" placeholder="Enter Name"><br><br>
+                            <input type="week">
+                                <br><br>
+                            <input type="submit" >
+                        </form>
+                        <br>
+                        <input type="email" required placeholder="Email" form="form1">
+                        <br><br><hr><br>
+
+                <!-- formaction attribute -->
+
+                        <h2><mark>formaction attribute</mark></h2>
+
+                        <form action="">
+
+                            <input type="text" name="" id="" placeholder="surname"><br><br>
+                            <input type="text" placeholder="name"><br><br>
+
+                            <input type="submit" formaction="test.html">
+
+                        </form>
+                        <br><br><hr><br>
+
+        <!-- ====================================  H ======================================= -->
+
+                <!-- headers attribute -->
+                        <h2><mark>headers attribute</mark></h2>
+
+                        <table border="3">
+                            <tr>
+                                <th>id</th>
+                                <th>name</th>
+                                <th>email</th>
+                            </tr>
+                            <tr>
+                                 <td headers="id">1</td>
+                                <td headers="name">dhruv</td>
+                                <td headers="email">abc@gmail.com</td>
+                            </tr>
+                        </table>
+
+                <!-- height attribute -->
+                        <h2><mark>height attribute</mark></h2>
+
+                        <img src="images/blog102.jpg" width="250" height="200" alt="">
+                        <br><br><hr><br>
+
+                <!-- hidden attribute -->
+                        <h2><mark>hidden attribute</mark></h2>
+
+                        <p hidden>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam laboriosam, nesciunt voluptates obcaecati mollitia velit. Ad eligendi voluptatem maiores.</p>
+                        <big>hidded paragraph</big>
+                        <br><hr><br>
+
+                <!-- high attribute -->
+                        <h2><mark>high attribute</mark></h2>
+
+                        <meter min="0" max="100" low="35"  high="90" value="94"></meter>
+                        <br><hr><br>
+
+                <!--href attribute  -->
+                        <h2><mark>href attribute</mark></h2>
+
+                        <a href="test.html">open file</a>
+                        <br>
+                        
+                        <a href="test.html" hreflang="en">open</a>  <!-- hreflang-->
+                        <br><br><hr><br>
+        <!-- ====================================  I ======================================= -->
+                    
+                <!-- id attribute -->
+                        <h2><mark>id attribute</mark></h2>
+                    
+                        <script>
+                            function changeText (){
+
+                                document.getElementById('id').innerHTML = "good night";
+                            }
+
+                        </script>
+                        <p id="id">good mornind</p>
+                        <button onclick="changeText()">change text</button>
+                        <br><br><hr><br>
+                <!-- ismap attribute -->
+                        <h2><mark>ismap attribute</mark></h2>
+                            <!-- server side image map in ismap is boolean -->
+                        <a href="abc.php"><img src="images/blog102.jpg" alt="img" ismap width="250"></a>
+                        <br><hr><br>
+
+        <!-- ====================================  L ======================================= -->
+                    
+                <!-- lang (language) attribute -->
+                        <h2><mark>lang (language) attribute</mark></h2>
+
+                        <p lang="eng">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <br><hr><br>
+
+                <!-- list attribute -->
+                        <h2><mark>list attribute</mark></h2>
+                        
+                        <input type="search" list="dd" placeholder="search">
+                        <datalist id="dd">
+                            <option value="html">html</option>
+                            <option value="css">css</option>
+                            <option value="js">js</option>
+                            <option value="angular.js">angular.js</option>
+                        </datalist>
+                         <br><br><hr><br>
+
+                <!-- loop attribute -->
+                        <h2><mark>loop attribute</mark></h2>
+                        <!-- loop attribute use to reapeate  -->
+                        <audio src="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" controls loop ></audio>
+                        <br><br><hr><br>
+
+                <!-- low attribute -->
+                        <h2><mark>low attribute</mark></h2>
+
+                        <meter min="0" max="100" low="20" high="90" value="16"></meter>
+                        <br><br><hr><br>
+                    
+        <!-- ====================================  M ======================================= -->
+
+                max attribute -->
+                        <h2><mark>max attribute</mark></h2>
+                            <input type="date" max="2023-06-30">
+                            <br><br>
+                        <progress max="100"  value="50">50%</progress>
+                        <br><br><hr><br>
+
+                <!-- maxlength attribute -->
+                        <h2><mark>maxlength attribute</mark></h2>
+
+                        <input type="text" placeholder="enter name" maxlength="5"><br><br>
+
+                        <textarea name="" id="" cols="20" rows="7" maxlength="150" placeholder="write 50 world.."></textarea>
+                        <br><br><hr><br>
+
+                <!--media attribute  -->
+                        <h2><mark>medial attribute</mark></h2>
+                        <!-- change window size in change image -->
+                        <picture>
+                            <source media="(min-width:850px)" srcset="images/blog68.jpg">
+                            <source media="(min-width:650px)" srcset="images/blog66.jpg">
+                            <source media="(min-width:450px)" srcset="images/blog67.jpg">
+                            <img src="images/blog102.jpg"  alt="">
+                        </picture>
+                        <br><br><hr><br>
+
+                <!-- method attribute -->
+                        <h2><mark>method attribute</mark></h2>
+
+                        <form action="" method="get">   <!-- two type methos get and post-->
+                            <input type="text" name="name" id="name" placeholder="name"><br><br>
+                            <input type="email" placeholder="email"><br><br>
+
+                            <input type="uri" placeholder="uri" readonly><br><br>
+
+                            <input type="submit" value="submit">
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- min attribute -->
+                        <h2><mark>min attribute</mark></h2>
+
+                        <form action="">
+
+                            <input type="date" min="2022-01-01">
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- multiple  attribute-->
+                        <h2><mark>multiple attribute</mark></h2>
+
+                        <form action="">
+                            choose multiple file <input type="file" multiple>
+                            <br><br>
+
+                            <select name="" id=""   multiple>
+                                <option value="">html</option>
+                                <option value="">css</option>
+                                <option value="">javascript</option>
+                                <option value="">python</option>
+                                <option value="">java</option>
+                            </select>
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- muted attribute -->
+                        <h2><mark>muted attribute </mark></h2>
+
+                        <audio src="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" controls muted></audio>
+                        <br><br>
+                        <video src="images/varisu.mkv" controls muted width="350"></video>
+                        <br><br><hr><br>
+
+        <!-- ====================================  N ======================================= -->
+                    
+                <!-- name attribute -->
+                        <h2><mark>name attribute</mark></h2>
+                        
+                        
+
+                            <input type="text" name="name" id="name" placeholder="name">
+                            <button name="btn">button</button>
+                        <br><br><hr><br>
+
+                <!-- novalidate attribute -->
+                        <h2><mark>novalidate attribute</mark></h2>
+                        <form action="" novalidate>
+                            <input type="text" name="" id="" placeholder="Name"   required> <br><br>
+                            <input type="email" name="" id="" placeholder="email" required>
+                            <br><br>
+                            Gender:<input type="radio" name="gender" id="male"><label for="male">Male</label>
+                            <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                            <input type="radio" name="gender" id="other"><label for="other">Other</label>
+                            <br><br>
+                            <input type="submit" >
+                        </form>
+                        <br><br><hr><br>
+ 
+        <!-- ====================================  O ======================================= -->
+
+                <!-- open attribute -->
+                        
+                        <h2><mark>open attribute</mark></h2>
+                        <details open>
+                            <summary>Html</summary>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, nihil! Natus iure totam saepe ipsum temporibus inventore itaque animi dolor veritatis sint non eveniet numquam quas corrupti sapiente, sit cupiditate praesentium. Tenetur incidunt mollitia vitae quia, commodi, nobis facilis illum suscipit fugit rem aliquid ullam assumenda beatae sit atque in pariatur error? Quod nisi adipisci, delectus quaerat sit dolores suscipit hic necessitatibus iste id sapiente nihil! Excepturi architecto fuga suscipit fugit ea odit sed perspiciatis facere, provident reprehenderit repellendus. Aperiam.</p>
+                        </details>
+                        <br><br><hr><br>
+
+        <!-- ====================================  P ======================================= -->
+
+                <!-- pattern attributr -->
+                        <h2><mark>pattern attribute</mark></h2>
+
+                        <form action="">
+
+                            Country code:<input type="text" name="country_code" pattern="[A-Za-z]{3}" placeholder="Three later code" required>
+                            <br><br>
+                            <label for="pass">password</label>
+                            <input type="password" name="" id="" required pattern=".{8,}"> 
+                            <br><br>
+                            <input type="submit" >
+                        </form>
+                        <br><br><hr><br>
+
+              <!--  placeholder attribute-->
+                        <h2><mark>placeholder attribute</mark></h2>
+
+                        <form action="">
+
+                            <input type="text" placeholder="Enter Name"><br><br>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="write here..."></textarea>
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- poster attribute -->
+
+                        <h2><mark>poster attribute</mark></h2>
+
+                        <video src="images/varisu.mkv" preload="none" poster="images/blog67.jpg" width="350" height="300" controls></video>
+                        <br><br><hr><br>
+
+        <!-- ====================================  R ======================================= -->
+
+                <!-- readonly attribute  -->
+                        <h2><mark>readomly attribute</mark></h2>
+
+                        <form action="">
+
+                            <input type="text" value="dhruv ghinaiay" readonly>
+                            <br><br>
+                            <textarea name="" id="" cols="30" rows="10" readonly >
+                                this is data not change
+                            </textarea>
+                        </form>
+
+                <!-- rel (relationship) attribute -->
+                        <h2><mark>rel (relationship) attribute</mark></h2>  
+
+                        <a rel="nofollow" href="http://www.functravel.com">click me</a>
+
+                        <link rel="stylesheet" href="">
+                        <br><br><hr><br>
+
+                <!-- required attribute -->
+                        <h2><mark>required attribute</mark></h2>
+                            
+                        <form action="">
+
+                            <input type="text" placeholder="Enter Name" required>
+                            <br><br>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="write here..." required></textarea>
+                            <br><br>
+                            choose:
+                            <select name="" id="" required>
+                                <option value="">html</option>
+                                <option value="">css</option>
+                                <option value="">javascript</option>
+                            </select>
+                            <input type="submit">
+                        </form>
+                        <br><br><hr><br>
+
+                <!-- reversed attribute -->
+                        <h2><mark>reversed attribute</mark></h2>
+
+                        <ol rev>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>javascript</li>
+                            <li>node.js</li>
+                            <li>php</li>
+                        </ol>
+                        <br><br><hr><br>
+
+                <!-- rows attribute -->
+                        <h2><mark>rows attribute</mark></h2>
+
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br><br><hr><br>
+                
+                <!-- rowspan attribute -->
+                        <h2><mark>rowspan attribute</mark></h2>
+
+                        <table border="4" width="250px">
+                            <tr>
+                                <th>id</th>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">name</th>
+                                <td>dhruv</td>
+                            </tr>
+                            <tr>
+
+                                <td>ghinaiya</td>
+                            </tr>
+                            <tr>
+                                <th>email</th>
+                                <td>abc@gmail.com</td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        <table border="3">
+                            <tr>
+                                <th>month</th>
+                                <th>saving</th>
+                                <th >saving for holiday</th>
+                            </tr>
+                            <tr>
+                                <td>junuary</td>
+                                <td >$105</td>
+                                <td rowspan="2">$50</td>
+                            </tr>
+                            <tr>
+                                <td>february</td>
+                                <td>$80</td>
+                            </tr>
+                        </table>
+                        <br><br><hr><br>
+
+        <!-- ====================================  S ======================================= -->
+
+                <!-- sandbox attribute  -->
+                        <h2><mark>sanbox attribute</mark></h2>
+                        <!-- sanbox attribute in use to block submission form,disable api,block automatical function -->
+                    <iframe src="test.html" frameborder="0" sandbox></iframe>
+                        <br><br><hr><br>
+
+                <!-- selected attribute -->
+                        <h2><mark>selected attribute</mark></h2>
+
+                        <select name="" id="">
+                            <option value="">html</option>
+                            <option value="" selected>css</option>
+                            <option value="">javascript</option>
+                        </select>
+                        <br><br><hr><br>
+
+                <!--shape attribute -->
+                        <h2><mark>shape attribute</mark></h2>
+
+                        <img src="images/blog102.jpg" usemap="#dhruv" width="350" alt="">
+                            <map name="dhruv">
+                                <area shape="rect" coords="50,50,10,30" href="images/blog67.jpg" alt="">
+                            </map>
+                            <br><br><hr><br>
+                    
+                <!-- size attribute -->
+                            <h2><mark>size attribute</mark></h2>
+
+                            <form action="">
+
+                                <input type="text" size="50" placeholder="enter name">
+                                <br><br>
+                                <input type="text" size="90" placeholder="enter email">
+                                <br><br>
+                                <select name="" id="" size="2">
+                                    <option value="">html</option>
+                                    <option value="">css</option>
+                                    <option value="">javascript</option>
+                                </select>
+                            </form>
+                            <br><br><hr><br>
+                
+
+                <!-- span attribute -->
+                            <h2><mark>span attribute </mark></h2>
+
+                            <table border="2" width="350" height="140" style="text-align: center;">
+                                <colgroup>
+                                <col span="2" style="background-color: cornflowerblue;">
+                                <col span="2" style="background-color: crimson;">
+                                </colgroup>
+
+                                <tr>
+                                    <th>id</th>
+                                    <th>name</th>
+                                    <th>email</th>
+                                    <th>city</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>tushar</td>
+                                    <td>abc@gmail.com</td>
+                                    <td>vadodra</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>dhruv</td>
+                                    <td>xyz@gmail.com</td>
+                                    <td>amreli</td>
+                                </tr>
+                            </table>
+                            <br><br><hr><br>
+
+                <!-- spellcheck attribute -->
+                            <h2><mark>spellcheck attribute</mark></h2>
+                            <!-- this attribute it use to text editable in element -->
+
+                            <p style="border:4px groove red;font-size:25px" spellcheck="true" contenteditable="true">this is paragraph in editable in text</p>
+                            <br><br><hr><br>
+
+                <!-- src (source) attribute -->
+                            <h2><mark>src (source) attribute</mark></h2>
+
+                            <audio src="images/Haan Main Galat - Love Aaj Kal 128 Kbps.mp3" controls></audio>
+                            <br><br><hr><br>
+                
+                <!-- srcdoc attribute -->
+                            <h2><mark>srcdoc attribute</mark></h2>
+
+                            <iframe src="" srcdoc="<p>this is srcdoc attribute</p>  <h3> hello srcdoc </h3> " frameborder="0"></iframe>
+                            <br><br><hr><br>
+
+                <!-- start attribute -->
+                            <h2><mark>start attribute</mark></h2>
+                            
+                            <ol start="101">
+                                <li>html</li>
+                                <li>css</li>
+                                <li>js</li>
+                            </ol>
+                            <br><br><hr><br>
+
+                <!-- step attribute -->
+                            <h2><mark>step attribute</mark></h2>
+
+                            <form action="">
+
+                                <input type="number" step="10" placeholder="step">
+                            </form>
+                            <br><br><hr><br>
+
+                <!-- style attribute -->
+                            <h2><mark> style attribute</mark></h2>
+
+                            <p style="color:chartreuse;background-color:blue;font-size:25px;">this is style attribute</p>
+                            <br><br><hr><br>
+
+        <!-- ====================================  S ======================================= -->
+
+                <!-- tabindex attribute -->
+                            <h2><mark>tabindex attribute</mark></h2>
+                            <!-- tab button use to index create -->
+                            
+                            <div tabindex="1">html</div>
+                            <div tabindex="3">css</div>
+                            <div tabindex="2">javascript</div>
+                            <div tabindex="4">node.js</div>
+                            <br><br><hr><br>
+
+                <!-- target attribute -->
+                            <h2><mark>target attribute</mark></h2>
+
+                            <a href="test.html" target="_blank">open file</a>
+                            <br><br><hr><br>
+
+                <!-- title attribute -->
+                            <h2><mark>title attribute</mark></h2>
+
+                            <abbr title="hypertext markup language">HTML</abbr>
+                            <br><br><hr><br>
+
+                <!-- translate attribute -->
+                            <h2><mark>translate attribute</mark></h2>
+
+                            <p translate="no">don't traslate this text</p>
+                            <p>this can be traslated to any language</p>
+                            <br><br><hr><br>
+
+                <!-- type attribute -->
+                            <h2><mark>type attribute</mark></h2>
+
+                            <form action="">
+
+                                <input type="text" placeholder="text">
+                                <br><br>
+                                <input type="email" placeholder="email">
+                                <br><br>
+                                <input type="button" value="submit">
+                            </form>
+
+                            <style type="text/css"></style>
+                            <br><br><hr><br>
+                            
+                <!-- usemap attribute -->
+                            <h2><mark>usemap attribute</mark></h2>
+
+                            <img src="images/blog102.jpg" usemap="#demo" width="350" height="280" alt="">
+                            <map name="demo">
+                                <area shape="rect" coords="0,50,280,200" href="images/blog68.jpg" alt="">
+                            </map>
+                            <br><br><hr><br>
+
+                <!-- value attribute -->
+                            <h2><mark>value attribute</mark></h2>
+
+                            <form action="">
+
+                                <input type="text" value="dhruv ghinaiya"><br><br>
+
+                                <button type="submit" value="submit">submit</button>
+                                <br><br>
+                                <meter min="0" max="100" value="50"></meter>
+
+                                <ol>
+                                    <li value="81">dhruv</li>
+                                    <li >tushar</li>
+                                    <li>darshan</li>
+                                    <li>ajay</li>
+                                </ol>
+                            </form>
+                            <br><br><hr><br>
+
+                <!-- width attribute -->
+                            <h2><mark>width attribute</mark></h2>
+
+                            <img src="images/blog67.jpg" alt="img" width="150">
+                            <br><br>
+                            <iframe src="test.html" frameborder="2" width="250"></iframe>
+                            <br><br><hr><br>
+
+                <!-- wrap attribute -->
+                            <h2><mark>wrap attribute</mark></h2>
+
+                            <form action="">
+                                <!-- wrap="hard" in to contain newlines if any submitted in a form -->
+                                <textarea name="" id="" cols="20" rows="2" wrap="hard"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, iure nesciunt cumque eveniet repellendus deserunt magni libero ullam debitis dolore inventore! Repellat incidunt nam voluptate! Maxime nihil expedita non corporis impedit, eaque obcaecati laborum quasi officia. Dolorum quam cum, odio reprehenderit explicabo a optio voluptatem eum dolorem doloremque asperiores beatae.</textarea>
+                            </form>
+
+     </body>
+</html>
